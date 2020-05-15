@@ -39,4 +39,7 @@ project.CSS
     - #travellist > li::after
     - @media
     - .container
-    
+
+project0.SCSS
+    - SCSS nesting
+    - SCSS inheritance
