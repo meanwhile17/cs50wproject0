@@ -50,7 +50,7 @@ ol {
 }
 
 #travellist > li::after {
-  content: " Visted" ;
+  content: " Visited" ;
   color: green;
 }
 
