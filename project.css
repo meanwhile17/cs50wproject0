@@ -5,3 +5,7 @@ h1, h2 {
 img {
   animation: moveit 2s linear 0s infinite alternate;
 }
+
+body {
+    background: #96e8ff  no-repeat fixed center;
+}
