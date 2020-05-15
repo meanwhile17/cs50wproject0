@@ -69,3 +69,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  backgroun-color: 53828f;
+}
