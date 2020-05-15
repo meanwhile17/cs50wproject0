@@ -1,3 +1,7 @@
 h1, h2 {
     color: red;
 }
+
+img {
+  animation: moveit 2s linear 0s infinite alternate;
+}
