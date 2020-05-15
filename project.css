@@ -49,7 +49,7 @@ ol {
   border: 1 px;
 }
 
-.travellist::after {
+#travellist::after {
   content: " Visted" ;
   color: green;
 }
