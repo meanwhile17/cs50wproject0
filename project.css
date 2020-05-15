@@ -3,7 +3,23 @@ h1, h2 {
 }
 
 img {
-  animation: moveit 2s linear 0s infinite alternate;
+  /* Chrome, Safari, Opera */
+-webkit-animation: moveit 2s linear 0s infinite alternate;
+/* Standard syntax */
+animation: moveit 2s linear 0s infinite alternate;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes moveit {
+    from {left: 0;}
+    to {left: 50%;}
+}
+
+/* Standard syntax */
+@keyframes moveit {
+    from {left: 0;}
+    to {left: 50%;}
 }
 
 body {
