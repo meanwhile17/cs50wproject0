@@ -12,6 +12,7 @@ img:hover {
 -webkit-animation: moveit 2s linear 0s infinite alternate;
 /* Standard syntax */
 animation: moveit 5s linear 0s infinite alternate;
+opacity: 50%;
 
 }
 
@@ -42,4 +43,13 @@ ul {
 }
 ol {
     list-style: circle inside;
+}
+
+.projecttables {
+  border: 1 px;
+}
+
+li::after {
+  content: "Visted" ;
+  color: green;
 }
